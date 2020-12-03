@@ -1,0 +1,116 @@
+.about {
+    padding: 70px 0px;
+    font-family: "Patrick Hand", cursive;
+    .about-slider {
+        background: url("../img/slider/about-slider.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 350px;
+        .slider-text {
+            h1 {
+                font-size: 72px;
+                font-weight: 600;
+                color: #ffffff;
+                font-family: "Dosis", sans-serif;
+            }
+        }
+    }
+    .strategy {
+        padding: 70px 0px;
+        h3 {
+            position: relative;
+            text-align: center;
+            font-size: 38px;
+            font-weight: 600;
+        }
+        .hr__friday {
+            background-image: linear-gradient(to right, #83a4d4, #b6fbff);
+            height: 3px;
+            width: 250px;
+            margin: auto;
+            border-radius: 20px;
+        }
+        .strategy-slide {
+            position: relative;
+            align-items: center;
+            overflow: hidden;
+            text-align: center;
+            .strategy-text {
+                padding: 20px 0px;
+                width: 100%;
+                p {
+                    font-size: 28px;
+                    padding: 0px 30px;
+                }
+            }
+            .slick-track {
+                display: flex;
+            }
+            .slick-prev {
+                position: absolute;
+                left: 0;
+                top: 30%;
+                color: #bc26d3;
+                font-size: 28px;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                z-index: 999;
+                &:focus {
+                    outline-width: 0;
+                }
+            }
+            .slick-next {
+                position: absolute;
+                right: 0;
+                top: 30%;
+                color: #bc26d3;
+                font-size: 28px;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                &:focus {
+                    outline-width: 0;
+                }
+            }
+            .slick-slide {
+                outline: none
+            }
+        }
+    }
+    .founder {
+        background-color: #f5f6f7;
+        padding: 50px 0px;
+        h3 {
+            font-size: 38px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .hr__vision {
+            background: linear-gradient(to right, #000046, #1cb5e0);
+            height: 3px;
+            width: 250px;
+            margin: 20px auto;
+            border-radius: 20px;
+        }
+        .member {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            img {
+                border-radius: 100%;
+                max-width: 200px;
+                max-height: 200px;
+                border: 2px solid #eee;
+            }
+            .member-name {
+                font-size: 34px;
+                font-weight: 550;
+            }
+            .member-job {
+                font-size: 20px;
+            }
+        }
+    }
+}
