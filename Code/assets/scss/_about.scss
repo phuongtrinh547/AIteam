@@ -1,5 +1,5 @@
 .about {
-    padding: 70px 0px;
+    padding: 70px 0px 0pc 0px;
     font-family: "Patrick Hand", cursive;
     .about-slider {
         background: url("../img/slider/about-slider.jpg");
@@ -110,6 +110,24 @@
             }
             .member-job {
                 font-size: 20px;
+            }
+        }
+    }
+    .footer {
+        padding: 50px;
+        background: linear-gradient(to right, #360033, #0b8793);
+        .footer-nav {
+            text-align: center;
+            color: #dcdcdc;
+            font-size: 20px;
+            .nav-color {
+                color: #ffffff !important;
+            }
+            .footer-contact {
+                padding: 20px 0px;
+                display: flex;
+                font-size: 28px;
+                justify-content: center;
             }
         }
     }

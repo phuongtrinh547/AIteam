@@ -300,7 +300,7 @@
 }
 
 .about {
-  padding: 70px 0px;
+  padding: 70px 0px 0pc 0px;
   font-family: "Patrick Hand", cursive;
 }
 
@@ -439,5 +439,32 @@
 
 .about .founder .member .member-job {
   font-size: 20px;
+}
+
+.about .footer {
+  padding: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#360033), to(#0b8793));
+  background: linear-gradient(to right, #360033, #0b8793);
+}
+
+.about .footer .footer-nav {
+  text-align: center;
+  color: #dcdcdc;
+  font-size: 20px;
+}
+
+.about .footer .footer-nav .nav-color {
+  color: #ffffff !important;
+}
+
+.about .footer .footer-nav .footer-contact {
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
