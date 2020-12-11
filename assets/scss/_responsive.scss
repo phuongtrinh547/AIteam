@@ -49,6 +49,11 @@
         }
         
     }
+    .signin-slider {
+        .signin-box {
+            margin: 0 20% !important;
+        }
+    }
 }
 //mobile
 @media only screen and (max-width: 575px) {
@@ -72,4 +77,10 @@
         }
         
     }
+        .signin-slider {
+            .signin-box {
+                width: 100% !important;
+                margin: 0 !important;
+            }
+        }
 }
